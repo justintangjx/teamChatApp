@@ -7,6 +7,7 @@
 <script>
 export default {
   name: "Chat",
+  props: ['name'],
   data() {
     return {};
   }
