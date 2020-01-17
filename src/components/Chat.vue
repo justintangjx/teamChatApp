@@ -15,18 +15,22 @@
                         Time
                     </span>
                 </li>
-
             </ul>
         </div>
-
+        <div class="card-action">
+            <NewMessage :name="name" />
+        </div>
     </div>
   </div>
 </template>
 
 <script>
+import NewMessage from './NewMessage'
+
 export default {
   name: "Chat",
   props: ['name'],
+  components: { NewMessage },
   data() {
     return {};
   }
