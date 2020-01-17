@@ -1,24 +1,6 @@
 # internal-team-chat-app
 
-## Project setup
-```
-npm install
-```
+Internal chat tool for a startup to use
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Instead of web sockets, experimenting with Firebase functions and vue js as frontend
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
