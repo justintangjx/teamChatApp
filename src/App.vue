@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <WelcomeScreen />
+    <!-- <WelcomeScreen /> -->
+    <router-view/>
   </div>
 </template>
 
 <script>
-import WelcomeScreen from "./components/WelcomeScreen";
+// import WelcomeScreen from "./components/WelcomeScreen";
 
 export default {
   name: "app",
-  components: {
-    WelcomeScreen
-  }
+  // components: {
+  //   WelcomeScreen
+  // }
 };
 </script>
 

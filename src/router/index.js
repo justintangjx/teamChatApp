@@ -5,11 +5,13 @@ import Chat from '../components/Chat.vue'
 
 Vue.use(Router)
 
+
+// export default new 
 export default new Router({
     routes: [
         {
             path: '/',
-            name: 'Welcome',
+            name: 'WelcomeScreen',
             component: WelcomeScreen
         },
         {
@@ -21,7 +23,7 @@ export default new Router({
                 if(to.params.name) {
                     next()
                 } else {
-                    next({ name: 'Welcome' })
+                    next({ name: 'WelcomeScreen' })
                 }
 
             } 
